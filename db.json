@@ -1,0 +1,139 @@
+{
+  "forms": [
+    {
+      "id": 1,
+      "name": "my first form",
+      "schema": {
+        "entities": {
+          "6e0035c3-0d4c-445f-a42b-2d971225446c": {
+            "type": "textField",
+            "attributes": {
+              "label": "Welcome",
+              "hint": "",
+              "width": "full",
+              "placeholder": "",
+              "default": "test",
+              "required": false
+            },
+            "parentId": "51324b32-adc3-4d17-a90e-66b5453933be"
+          },
+          "6e0035c3-0d4c-445f-a42b-2d971225447c": {
+            "type": "textField",
+            "attributes": {
+              "label": "dépose ?",
+              "hint": "exemple: papier peint, peinture...etc",
+              "width": "half",
+              "placeholder": "c'est à vous",
+              "default": "test",
+              "required": true
+            },
+            "parentId": "51324b32-adc3-4d17-a90e-66b5453934be"
+          },
+          "4c332896-e497-47e0-98db-d39fa25f4898": {
+            "type": "textField",
+            "attributes": {
+              "label": "revetement actuel ?",
+              "hint": "exemple: papier peint, peinture...etc",
+              "width": "full",
+              "placeholder": "c'est à vous",
+              "default": "test",
+              "required": true
+            },
+            "parentId": "51324b32-adc3-4d17-a90e-66b5453934be"
+          },
+          "6e0035c3-0d4c-445f-a42b-2d971225447a": {
+            "type": "textField",
+            "attributes": {
+              "label": "dépose ?",
+              "required": true
+            },
+            "parentId": "51324b32-adc3-4d17-a90e-66b5453935be"
+          },
+          "4c332896-e497-47e0-98db-d39fa25f489b": {
+            "type": "textField",
+            "attributes": {
+              "label": "revetement actuel ?",
+              "hint": "exemple: papier peint, peinture...etc",
+              "width": "full",
+              "placeholder": "c'est à vous",
+              "default": "test",
+              "required": true
+            },
+            "parentId": "51324b32-adc3-4d17-a90e-66b5453935be"
+          },
+          "51324b32-adc3-4d17-a90e-66b5453933be": {
+            "type": "step",
+            "attributes": {
+              "label": "Welcome Step",
+              "layout": "vertical"
+            },
+            "children": ["6e0035c3-0d4c-445f-a42b-2d971225446c"]
+          },
+          "51324b32-adc3-4d17-a90e-66b5453934be": {
+            "type": "step",
+            "attributes": {
+              "label": "Step 1",
+              "layout": "horizontal"
+            },
+            "children": [
+              "6e0035c3-0d4c-445f-a42b-2d971225447c",
+              "4c332896-e497-47e0-98db-d39fa25f4898"
+            ]
+          },
+          "51324b32-adc3-4d17-a90e-66b5453935be": {
+            "type": "step",
+            "attributes": {
+              "label": "Step 2",
+              "layout": "vertical"
+            },
+            "children": [
+              "6e0035c3-0d4c-445f-a42b-2d971225447a",
+              "4c332896-e497-47e0-98db-d39fa25f489b"
+            ]
+          }
+        },
+        "root": [
+          "51324b32-adc3-4d17-a90e-66b5453933be",
+          "51324b32-adc3-4d17-a90e-66b5453934be",
+          "51324b32-adc3-4d17-a90e-66b5453935be"
+        ]
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "id": "1",
+      "formId": "1",
+      "nodes": [
+        {
+          "id": "a",
+          "type": "input",
+          "position": { "x": 0, "y": 0 },
+          "data": { "label": "wire" }
+        },
+        {
+          "id": "b",
+          "type": "position-logger",
+          "position": { "x": -100, "y": 100 },
+          "data": { "label": "drag me!" }
+        },
+        {
+          "id": "c",
+          "position": { "x": 100, "y": 100 },
+          "data": { "label": "your ideas" }
+        },
+        {
+          "id": "d",
+          "type": "output",
+          "position": { "x": 0, "y": 200 },
+          "data": { "label": "with React Flow" }
+        }
+      ],
+      "edges": [
+        { "id": "a->c", "source": "a", "target": "c", "animated": true },
+        { "id": "b->d", "source": "b", "target": "d" },
+        { "id": "c->d", "source": "c", "target": "d", "animated": true }
+      ]
+    }
+  ]
+}
