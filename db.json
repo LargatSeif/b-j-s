@@ -30,14 +30,18 @@
             "parentId": "51324b32-adc3-4d17-a90e-66b5453934be"
           },
           "4c332896-e497-47e0-98db-d39fa25f4898": {
-            "type": "textField",
+            "type": "selectField",
             "attributes": {
               "label": "revetement actuel ?",
               "hint": "exemple: papier peint, peinture...etc",
               "width": "full",
               "placeholder": "c'est à vous",
               "default": "test",
-              "required": true
+              "required": true,
+              "options":[
+                {"label":"option one","value":"option1"},
+                {"label":"option two","value":"option2"}
+              ]
             },
             "parentId": "51324b32-adc3-4d17-a90e-66b5453934be"
           },
