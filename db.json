@@ -18,13 +18,15 @@
             "parentId": "51324b32-adc3-4d17-a90e-66b5453933be"
           },
           "6e0035c3-0d4c-445f-a42b-2d971225447c": {
-            "type": "textField",
+            "type": "pictureChoiceField",
             "attributes": {
-              "label": "dépose ?",
+              "label": "peinture ?",
               "hint": "exemple: papier peint, peinture...etc",
-              "width": "half",
               "placeholder": "c'est à vous",
-              "default": "test",
+              "options":[
+                {"label":"option one","value":"option1"},
+                {"label":"option two","value":"option2"}
+              ]
               "required": true
             },
             "parentId": "51324b32-adc3-4d17-a90e-66b5453934be"
