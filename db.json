@@ -26,7 +26,7 @@
               "options":[
                 {"label":"option one","value":"option1"},
                 {"label":"option two","value":"option2"}
-              ]
+              ],
               "required": true
             },
             "parentId": "51324b32-adc3-4d17-a90e-66b5453934be"
