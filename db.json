@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Form 1",
-
+      "description": "This is a sample form",
       "root": [
         "51324b32-adc3-4d17-a90e-66b5453933be",
         "51324b32-adc3-4d17-a90e-66b5453934be",
@@ -382,7 +382,7 @@
     {
       "id": "2",
       "name": "Form 2",
-
+      "description": "This is a sample form",
       "root": [
         "51324b32-adc3-4d17-a90e-66b5453933be",
         "51324b32-adc3-4d17-a90e-66b5453934be",
