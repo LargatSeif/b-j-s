@@ -1,8 +1,10 @@
 {
+  "type": "module",
   "scripts": {
-    "dev": "json-server --watch db.json -p 3001 -h 127.0.0.1"
+    "dev": "node server.js",
+    "d": "json-server --watch db.json -p 3001 -h 127.0.0.1"
   },
-  "dependencies": {
+  "devDependencies": {
     "json-server": "0.17.4"
   }
 }
