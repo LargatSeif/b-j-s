@@ -201,7 +201,9 @@
             "label": "Step 4",
             "layout": "vertical"
           },
-          "children": ["6e8de503-5e23-4929-930a-fb8c1b9a4ff8"]
+          "children": [
+            "6e8de503-5e23-4929-930a-fb8c1b9a4ff8"
+          ]
         },
         "e6de0786-1a98-4ef5-b25a-b56a8291c6cf": {
           "type": "step",
@@ -209,7 +211,9 @@
             "label": "Step 5",
             "layout": "vertical"
           },
-          "children": ["8709f7aa-8bcc-47fa-9532-849e33de5b6b"]
+          "children": [
+            "8709f7aa-8bcc-47fa-9532-849e33de5b6b"
+          ]
         },
         "0a319868-8d4d-46f1-bcf3-f0a49f5a4052": {
           "type": "step",
@@ -307,7 +311,9 @@
             "label": "Step 7",
             "layout": "vertical"
           },
-          "children": ["09a8e073-5e4d-4a93-811e-8f68ec1b66ee"]
+          "children": [
+            "09a8e073-5e4d-4a93-811e-8f68ec1b66ee"
+          ]
         },
         "09a8e073-5e4d-4a93-811e-8f68ec1b66ee": {
           "type": "textField",
@@ -335,14 +341,18 @@
           "attributes": {
             "label": "Step 9"
           },
-          "children": ["9e5b1de9-351f-42ad-8314-31192a2e637b"]
+          "children": [
+            "9e5b1de9-351f-42ad-8314-31192a2e637b"
+          ]
         },
         "671a6079-c2ff-4a69-b356-7059a3d5da1b": {
           "type": "step",
           "attributes": {
             "label": "Step 10"
           },
-          "children": ["a2ab32f8-7d51-4394-ba4f-71000e28d10a"]
+          "children": [
+            "a2ab32f8-7d51-4394-ba4f-71000e28d10a"
+          ]
         },
         "a2ab32f8-7d51-4394-ba4f-71000e28d10a": {
           "type": "textField",
@@ -966,33 +976,37 @@
       "id": "3",
       "name": "Peinture",
       "description": "Parcours peinture",
-      "status": "draft",
+      "status": "published",
       "createdAt": "2023-04-01T12:00:00Z",
-      "updatedAt": "2023-04-01T12:00:00Z"
+      "updatedAt": "2025-07-14T11:59:42.700Z"
     },
     {
       "id": "f879",
       "name": "Salle de bain",
       "description": "Copy of Parcours salle de bain",
-      "status": "draft",
+      "status": "published",
       "createdAt": "2025-07-10T10:01:12.014Z",
-      "updatedAt": "2025-07-10T10:01:12.014Z",
+      "updatedAt": "2025-07-14T11:59:36.807Z",
       "root": [],
       "entities": {}
     },
     {
-      "name": "tetet",
-      "description": "lorem ipsum",
-      "status": "archived",
+      "name": "Test",
+      "description": "Parcours de test",
+      "status": "draft",
       "createdAt": "2025-07-12T23:29:28.034Z",
-      "root": ["7c21ba1b-8a44-4682-a9fb-f665fd10b5b9"],
+      "root": [
+        "7c21ba1b-8a44-4682-a9fb-f665fd10b5b9"
+      ],
       "entities": {
         "7c21ba1b-8a44-4682-a9fb-f665fd10b5b9": {
           "attributes": {
             "label": "Multi question page"
           },
           "type": "step",
-          "children": ["58923fc6-ebf9-4fb1-843c-8fe14463ac6d"]
+          "children": [
+            "58923fc6-ebf9-4fb1-843c-8fe14463ac6d"
+          ]
         },
         "58923fc6-ebf9-4fb1-843c-8fe14463ac6d": {
           "attributes": {
@@ -1005,36 +1019,8 @@
           "parentId": "7c21ba1b-8a44-4682-a9fb-f665fd10b5b9"
         }
       },
-      "updatedAt": "2025-07-12T23:30:00.514Z",
+      "updatedAt": "2025-07-14T11:43:07.006Z",
       "id": "bf09598c-61e7-4ba9-be43-19635774567a"
-    },
-    {
-      "id": "8004cef8-fb17-42f0-853f-4a59913463c2",
-      "name": "Copy of tetet (Copy)",
-      "description": "Copy of lorem ipsum",
-      "status": "published",
-      "entities": {
-        "7c21ba1b-8a44-4682-a9fb-f665fd10b5b9": {
-          "attributes": {
-            "label": "Multi question page"
-          },
-          "type": "step",
-          "children": ["58923fc6-ebf9-4fb1-843c-8fe14463ac6d"]
-        },
-        "58923fc6-ebf9-4fb1-843c-8fe14463ac6d": {
-          "attributes": {
-            "label": "Short Text",
-            "hint": "A text field is a single line input field.",
-            "required": false,
-            "width": "full"
-          },
-          "type": "textField",
-          "parentId": "7c21ba1b-8a44-4682-a9fb-f665fd10b5b9"
-        }
-      },
-      "root": ["7c21ba1b-8a44-4682-a9fb-f665fd10b5b9"],
-      "createdAt": "2025-07-12T23:39:32.780Z",
-      "updatedAt": "2025-07-12T23:39:32.780Z"
     }
   ],
   "workflows": [
